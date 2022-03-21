@@ -47,6 +47,8 @@ public class LineComparison {
     	System.out.println("Line1: "+length1);    	
     	double length2 = lineComparision2.calculateLength();
     	System.out.println("Line2: "+length2);
+    	
+    	compareTwoLengths(length1, length2);
       }
     
     private double calculateLength() {
